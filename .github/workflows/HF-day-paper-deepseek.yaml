@@ -56,7 +56,7 @@ jobs:
   
   process:
     needs: verify
-    if: needs.verify.outputs.is_authorized == 'true'
+    # if: needs.verify.outputs.is_authorized == 'true'
     runs-on: ubuntu-latest
     
     steps:
